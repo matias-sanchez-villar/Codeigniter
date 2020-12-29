@@ -12,7 +12,7 @@ class Login extends CI_Controller {
 		$data["titulo"]="Primera vez con un framework";
 		$this->load->view("head", $data);
 		$this->load->view("navbar");
-		$this->load->view("vistas");
+		$this->load->view("login");
 		$this->load->view("footer");
 	}
 }
