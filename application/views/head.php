@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        <?= $titulo ?>
+        Primera vez con un framework
     </title>
     <!-- script -->
     <script src="https://kit.fontawesome.com/2608d06942.js" crossorigin="anonymous"></script>
