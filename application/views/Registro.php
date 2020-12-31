@@ -17,7 +17,7 @@
             <div class="form-group row">
                 <label for="example-date-input" class="col-3 col-form-label">Fecha de Nacimiento</label>
                 <div class="col-9">
-                    <input class="form-control" type="date" id="example-date-input">
+                    <input class="form-control" type="date" id="example-date-input" name="FechaNacimiento">
                 </div>
             </div>
             <div class="form-group">

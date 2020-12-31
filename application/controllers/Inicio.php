@@ -5,10 +5,11 @@ class Inicio extends CI_Controller {
 
 	public function __construct (){
 		parent::__construct ();
-		$this->load->helper(array("getmenu", "url"));
+		$this->load->helper(array("menu", "url"));
 	}
 
 	public function index(){
+		$data["Menu"]=main_menu();
 		$data ['Nombre']  =  '' ; 
 		$this->load->view("head");
 		$this->load->view("navbar", $data);
