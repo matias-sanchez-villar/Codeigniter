@@ -6,21 +6,11 @@
     <div class="container-fluid  bg-light">
         <div class="container">
             <ul class="nav nav-justified py-2 nav-pills">
+                <?php foreach ($Menu as $item): ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="../php/Listado.php">Listado</a>
+                    <a class="nav-link" href="<?= $item["url"] ?>"><?= $item["title"] ?></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="../html/index.html">Ingreso</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../php/Busqueda.php">Busqueda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../php/Eliminar.php">Eliminar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../php/Modificar.php">Modificar</a>
-                </li>
+                <?php endforeach; ?>
             </ul>
         </div>
     </div>
