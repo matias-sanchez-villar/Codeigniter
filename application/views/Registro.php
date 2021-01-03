@@ -5,7 +5,7 @@
 
     <div class="container">
         <h2>Registro: </h2>
-        <form action="/action_page.php">
+        <form action="registro/create" method="post">
             <div class="form-group">
                 <label for="email">Nombre:</label>
                 <input type="text" class="form-control" placeholder="Nombre" name="Nombre">
