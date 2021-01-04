@@ -52,7 +52,7 @@ class Registro extends CI_Controller {
 			),
 			array(
 				'field' => 'email',
-				'rules' => 'required|alpha_numeric',
+				'rules' => 'required',
 				'errors' => array(
 							'required' => 'Error Email invalido.',
 						),
@@ -79,10 +79,10 @@ class Registro extends CI_Controller {
 				"Email"=> $Email,
 				"Password"=> $Pasword,
 				"Estado"=> TRUE,
-				"FechaNacimiento"=> $BirthDate,
+				"FechaNacimiento"=> $BirthDate
 			);
 
-			$this->user->Creater($datos);
+			$this->Users->Creater($datos);
 		}
 	}
 }
