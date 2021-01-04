@@ -2,7 +2,7 @@
 <html>
 
 <body>
-
+    <?php echo validation_errors(); ///mensaje de error ?>
     <div class="container">
         <h2>Registro: </h2>
         <form action="registro/create" method="post">
